@@ -6,7 +6,7 @@ public class UserMapperImpl implements UserMapper {
 
 	@Override
 	public User queryUserById(Integer id) {
-		
+
 		User user=null;
 		switch (id) {
 		case 1:
@@ -17,6 +17,10 @@ public class UserMapperImpl implements UserMapper {
 			break;
 		}
 		return user;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(11);
 	}
 
 }
