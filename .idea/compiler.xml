@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jd-mapper" />
+        <module name="jd-domain" />
+        <module name="jd-web" />
+        <module name="jd-service" />
+        <module name="jd-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jd-common" target="1.5" />
+      <module name="jd-domain" target="1.5" />
+      <module name="jd-mapper" target="1.5" />
+      <module name="jd-parent" target="1.5" />
+      <module name="jd-service" target="6" />
+      <module name="jd-web" target="1.5" />
+      <module name="test-jd-web" target="1.5" />
+      <module name="test-jd-web2" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
