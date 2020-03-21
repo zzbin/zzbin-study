@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jd-mapper" />
-        <module name="jd-domain" />
-        <module name="jd-web" />
-        <module name="jd-service" />
         <module name="jd-common" />
+        <module name="jd-domain" />
+        <module name="jd-mapper" />
+        <module name="jd-service" />
+        <module name="jd-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -21,7 +21,6 @@
       <module name="jd-parent" target="1.8" />
       <module name="jd-service" target="1.8" />
       <module name="jd-web" target="1.8" />
-      <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

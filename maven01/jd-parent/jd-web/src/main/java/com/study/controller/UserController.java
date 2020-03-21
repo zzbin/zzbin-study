@@ -12,4 +12,5 @@ public class UserController {
 		User user = userService.queryUserById(id);
 		System.out.println(user);
 	}
+
 }
